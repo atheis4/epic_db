@@ -5,14 +5,14 @@ epic_db
 - Description: interface for creating/modifying/deleting epic_db
 
 
-**ABOUT**
+**about**
 ===============================================================================
 The epic_db package represents a sqlalchemy ORM for inserting, modifying, and deleting rows from the epic database. The epic database tracks the inputs to the Epi(demiology) Computation process.
 
 This database allowed for a first at IHME, *sequela hierarchies*.
 
 
-**USE**
+**use**
 ===============================================================================
 All updates to the database are processed through the RequestHandler object. This object must be instantiated with a sqlalchemy.orm.Session object pointing to the epic database. 
 
